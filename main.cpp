@@ -3,12 +3,11 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include "ppfs_datastructures.h"
+#include "ppfs_read.h"
+#include "ppfs_write.h"
+
 using namespace std;
-
-#include "dataStructs.cpp"
-#include "createFS.cpp"
-#include "accessFS.cpp"
-
 
 int main(){
 	char FSname[30];
